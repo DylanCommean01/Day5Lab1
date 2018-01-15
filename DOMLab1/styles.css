@@ -1,0 +1,23 @@
+html,
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    margin:0.5em;
+    display: block;
+}
+
+.divBox {
+    margin: 0.5em;
+    height: 2em;
+    width: 2em;
+    background-color: #0275d8;
+}
+
+.bg-secondary {
+    background-color: #025aa5;
+}
