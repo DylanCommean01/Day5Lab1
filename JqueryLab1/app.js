@@ -34,14 +34,14 @@ $(function () {
         pgText.css('color', `rgb(${r}, ${g}, ${b})`);
     });
 
-    let btnSpan = $('#btnSpan');
+    let btnSpan = $('#btnDisplayName');
     let divSpan = $('#divSpan');
 
     btnSpan.click(function () {
         divSpan.append('<span>Dylan </span>');
     });
 
-    let btnFriend = $('#btnFriend');
+    let btnFriend = $('#btnDisplayFriends');
     let ulFriends = $('#friends');
     let friends = ['Miranda', 'Thomas', 'John', 'Andrew', 'Matt', 'Jacob', 'Jordan', 'Bee Movie', 'Gary', 'Jesus'];
 

@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
         pgText.style.color = `rgb(${r}, ${g}, ${b})`;
     });
 
-    let btnSpan = document.getElementById('btnSpan');
+    let btnSpan = document.getElementById('btnDisplayName');
     let divSpan = document.getElementById('divSpan');
 
     btnSpan.addEventListener('click', function () {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
         divSpan.appendChild(span);
     });
 
-    let btnFriend = document.getElementById('btnFriend');
+    let btnFriend = document.getElementById('btnDisplayFriends');
     let ulFriends = document.getElementById('friends');
     let friends = ['Miranda', 'Thomas', 'John', 'Andrew', 'Matt', 'Jacob', 'Jordan', 'Bee Movie', 'Gary', 'Jesus'];
 
